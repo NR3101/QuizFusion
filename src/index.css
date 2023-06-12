@@ -219,6 +219,12 @@ main {
   cursor: pointer;
 }
 
+@media screen and (max-width: 576px) {
+  .next-question {
+    width: 50%;
+  }
+}
+
 .submit-btn:hover {
   background-color: #1098ad;
   transform: scale(110%);
